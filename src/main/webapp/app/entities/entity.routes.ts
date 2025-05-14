@@ -6,6 +6,11 @@ const routes: Routes = [
     data: { pageTitle: 'infinityShoppingGatewayApp.adminAuthority.home.title' },
     loadChildren: () => import('./admin/authority/authority.routes'),
   },
+  {
+    path: 'store',
+    data: { pageTitle: 'infinityShoppingGatewayApp.infinityShoppingStoreStore.home.title' },
+    loadChildren: () => import('./InfinityShoppingStore/store/store.routes'),
+  },
   /* jhipster-needle-add-entity-route - JHipster will add entity modules routes here */
 ];
 
