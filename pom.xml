@@ -893,9 +893,9 @@
             </activation>
             <properties>
                 <!-- default Spring profiles -->
-                <liquibase-plugin.password/>
-                <liquibase-plugin.url>jdbc:postgresql://localhost:5432/InfinityShoppingGateway</liquibase-plugin.url>
-                <liquibase-plugin.username>InfinityShoppingGateway</liquibase-plugin.username>
+                <liquibase-plugin.password>admin</liquibase-plugin.password>
+                <liquibase-plugin.url>jdbc:postgresql://localhost:5432/infinityshopping-consul-gateway</liquibase-plugin.url>
+                <liquibase-plugin.username>postgres</liquibase-plugin.username>
                 <profile.test>test,testdev</profile.test>
                 <spring.profiles.active>dev${profile.tls}${profile.no-liquibase}</spring.profiles.active>
             </properties>
